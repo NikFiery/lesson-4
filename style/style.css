@@ -116,6 +116,7 @@ header {
     color: #ffffff;
     outline: none;
     margin-bottom: 37px;
+    cursor: pointer;
 }
 
 .axit > .btn__download {
@@ -127,7 +128,8 @@ header {
     background: #000000;
     border-radius: 8%;
     border: 2px solid;
-    transition: 0.2s
+    transition: 0.2s;
+    cursor:pointer;
 }
 
 .btn__download:active, .btn__white:active {
@@ -137,6 +139,7 @@ header {
     border: 2px solid;
     color: #000000;
     transition: 0.1s;
+    cursor:pointer;
 }
 
             /*******register*******/
@@ -330,6 +333,7 @@ padding: 0;
     font-size: 16px;
     color: #ffffff;
     outline: none;
+    cursor:pointer;
 }
 
 .te-btn:hover, .btn__orange:hover {
@@ -337,6 +341,7 @@ padding: 0;
     color: #ffffff;
     border-radius: 9%;
     box-shadow: 0 0 3px 1px rgb(70, 69, 69);
+    cursor:pointer;
 }
 
 .te-btn:active, .btn__orange:active {
@@ -345,6 +350,7 @@ padding: 0;
     border-radius: 5%;
     font-size: 18px;
     box-shadow: 0 0 3px 1px rgb(70, 69, 69);
+    cursor:pointer;
 }
 
 .transition-effect > img {
